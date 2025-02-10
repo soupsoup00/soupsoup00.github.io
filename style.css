@@ -1,6 +1,64 @@
-*{
+@font-face {
+    font-family: 'Chunkfive';
+    src: url(fonts/Chunkfive\ Ex.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'kollektiv';
+    src: url(fonts/kollektif.ttf) format('truetype');
+    
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'kollektiv', sans-serif;
+}
+
+.accent{
+    color: #ffb905;
+}
+
+h1{
+    font-family: 'Chunkfive', serif;
+    font-size: 6em;
+    padding-top: 4%;
     text-align: center;
 }
-body {
-    background-color: darkorange;
+
+h2{
+    font-size: 4em;
 }
+
+.home-text{
+    text-align: center;
+    padding-top: 6%;
+    
+}
+
+#view-work {
+    
+    font-family: 'kollektiv', sans-serif;
+    background-color: #ffb905;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight:normal;
+    height: 5%; 
+    width: 180px;
+}
+
+#view-work:hover{
+    background-color: #ffab23;
+    transform: scale(1.1);
+}
+
+.icons img{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 30px;
+    width: 35px;
+    height: auto;
+}
+
+
