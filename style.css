@@ -50,15 +50,33 @@ h2{
 
 #view-work:hover{
     background-color: #ffab23;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    animation: tilt-shaking 0.5s infinite;
+    
 }
 
-.icons img{
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+  
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }   
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.icon-button{
     margin-right: 5px;
     margin-left: 5px;
     padding-top: 30px;
     width: 35px;
     height: auto;
+}
+
+.icons img:hover{
+    transform: scale(0.95)
 }
 
 
