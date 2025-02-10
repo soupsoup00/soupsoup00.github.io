@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Chunkfive';
-    src: url(fonts/Chunkfive\ Ex.ttf) format('truetype');
+    src: url(./fonts/Chunkfive\ Ex.ttf) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'kollektiv';
-    src: url(fonts/kollektif.ttf) format('truetype');
+    src: url(./fonts/kollektif.ttf) format('truetype');
     
 }
 
