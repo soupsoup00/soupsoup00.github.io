@@ -21,19 +21,38 @@ body {
 
 h1{
     font-family: 'Chunkfive', serif;
-    font-size: 6em;
-    padding-top: 4%;
+    font-size: 4.5em;
+    padding-top: 5%;
     text-align: center;
 }
 
-h2{
+#home, #about {
+    height: 100%;
+}
+
+.home-text h1{
+    font-family: 'Chunkfive', serif;
+    font-size: 6em;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.home-text h2{
     font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
 }
 
 .home-text{
     text-align: center;
     padding-top: 6%;
     
+}
+
+p {
+    font-size: 20;
 }
 
 #view-work {
@@ -50,7 +69,7 @@ h2{
 
 #view-work:hover{
     background-color: #ffab23;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     animation: tilt-shaking 0.5s infinite;
     
 }
@@ -79,4 +98,45 @@ h2{
     transform: scale(0.95)
 }
 
+#about{
+    background-color: #f7f7f7;
+}
 
+.heading {
+    width: 100%;
+    white-space: nowrap;
+    /* text-align: center; */
+}
+.heading h2{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 0; */
+}
+
+.left{
+    text-align: left;
+    padding-left: 25%;
+
+}
+
+.right{
+    width: min-content;
+    text-align: right;
+    padding-right: 25%;
+    
+}
+
+.bio p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align:center;
+    /* width: 70%; */
+}
+
+#hannah {
+    width: 400px;
+    height: auto;
+    border-radius: 400px;
+    margin-left: 16.5%;
+}
