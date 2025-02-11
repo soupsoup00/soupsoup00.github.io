@@ -1,3 +1,7 @@
+:root {
+    --yellow: #ffb905
+}
+
 @font-face {
     font-family: 'Chunkfive';
     src: url(./fonts/Chunkfive\ Ex.ttf) format('truetype');
@@ -20,7 +24,7 @@ body {
 }
 
 .accent{
-    color: #ffb905;
+    color: var(--yellow);
 }
 
 h1{
@@ -63,7 +67,7 @@ p {
 #view-work {
     
     font-family: 'kollektiv', sans-serif;
-    background-color: #ffb905;
+    background-color: var(--yellow);
     border: none;
     border-radius: 10px;
     font-size: 1.5em;
@@ -146,19 +150,28 @@ p {
     margin-left: 16.5%;
 }
 
-.projects{
+.projects-content{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     /* white-space: nowrap; */
 }
 
+
+
 .project-titles{
-    /* display: flex;  */
-    /* justify-content: space-evenly; */
+    display: flex; 
+    flex-direction: column;
+    /* gap: 10%; */
     align-items: left; 
+    
     width: 15%;
-    padding-top: 10%;
+    padding: 5% 0;
+    /* padding-top: 10%; */
     
     padding-left: 5%;
+    padding-right: 5%;
+    /* margin-right: 20px; */
 }
 
 .project-buttons{
@@ -170,21 +183,30 @@ p {
 
 .project-buttons:hover{
     transform: scale(1.06);
-}
-/* .tictactoes{
-
-    padding-left: 5%;
-}
-
-.project-acorn{
-    padding-left: 10%;
-    padding-right: 1%;
+    color: f;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.birge{
-    padding-right: 5%;
 
+.project-info{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-grow: 1;
+    width: 40%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
- */
+
+.project-info p{
+    padding: 10px 0;
+}
+
+.selected{
+    text-decoration: underline;
+}
 
 
