@@ -14,11 +14,17 @@
     
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
 
 body {
+
     background-color: rgb(255, 255, 255);
     font-family: 'kollektiv', sans-serif;
 }
@@ -41,7 +47,7 @@ h1{
 .home-text h1{
     font-family: 'Chunkfive', serif;
     font-size: 6em;
-    padding-top: 8%;
+    /* padding-top: 8%; */
     text-align: center;
 }
 
@@ -60,12 +66,11 @@ h2, .project-buttons{
     
 }
 
-p {
+#header, p {
     font-size: 20;
 }
 
 #view-work {
-    
     font-family: 'kollektiv', sans-serif;
     background-color: var(--yellow);
     border: none;
@@ -101,6 +106,8 @@ p {
     padding-top: 30px;
     width: 35px;
     height: auto;
+    /* box-shadow: 0 4px 2px -2px #e4e4e4 */
+   
 }
 
 .icons img:hover{
@@ -193,7 +200,6 @@ p {
     padding-top: 2%;
     padding-bottom: 10%;
     display: flex;
-    /* flex-direction: column; */
     flex-grow: 1;
     width: 40%;
     text-align: center;
@@ -207,6 +213,7 @@ p {
 
 .project-info img{
     max-width: 50%;
+    max-height: 70%;
     padding: 5px 0;
 }
 
@@ -214,4 +221,37 @@ p {
     text-decoration: underline;
 }
 
+#header a{
+    text-decoration: none;
+}
 
+#header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 0;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    
+    box-shadow: 2px 2px 5px#e4e4e4 ;
+}
+
+.navbar-button{
+    font-family: 'kollektiv', sans-serif;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight:normal;
+    height: 5%; 
+    width: 180px;
+    
+}
+
+.navbar-button:hover{
+    /* background-color: #f7f7f7; */
+    color: var(--yellow);
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+}

@@ -19,6 +19,7 @@ buttons.forEach(button=>{
         hiddenSections.forEach(div=>{
             div.style.display = "none";
         });
+        
         buttons.forEach(button=>{
             button.classList.remove('selected');
         });
