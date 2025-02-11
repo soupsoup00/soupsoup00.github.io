@@ -10,6 +10,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'kollektiv', sans-serif;
@@ -26,7 +30,7 @@ h1{
     text-align: center;
 }
 
-#home, #about {
+#home, #about, #projects, #art {
     height: 100%;
 }
 
@@ -41,7 +45,8 @@ h1{
     font-size: 4em;
 }
 
-h2{
+h2, .project-buttons{
+    font-family: 'kollektiv', sans-serif;
     font-size: 3em;
 }
 
@@ -98,7 +103,7 @@ p {
     transform: scale(0.95)
 }
 
-#about{
+#about,#art{
     background-color: #f7f7f7;
 }
 
@@ -114,13 +119,13 @@ p {
     /* margin: 0; */
 }
 
-.left{
+.bio-left{
     text-align: left;
     padding-left: 25%;
 
 }
 
-.right{
+.bio-right{
     width: min-content;
     text-align: right;
     padding-right: 25%;
@@ -140,3 +145,46 @@ p {
     border-radius: 400px;
     margin-left: 16.5%;
 }
+
+.projects{
+    width: 100%;
+    /* white-space: nowrap; */
+}
+
+.project-titles{
+    /* display: flex;  */
+    /* justify-content: space-evenly; */
+    align-items: left; 
+    width: 15%;
+    padding-top: 10%;
+    
+    padding-left: 5%;
+}
+
+.project-buttons{
+    padding-bottom: 10%;
+    background: #ffffff;
+    font-weight:600;
+    border: none;
+}
+
+.project-buttons:hover{
+    transform: scale(1.06);
+}
+/* .tictactoes{
+
+    padding-left: 5%;
+}
+
+.project-acorn{
+    padding-left: 10%;
+    padding-right: 1%;
+}
+
+.birge{
+    padding-right: 5%;
+
+}
+ */
+
+
