@@ -158,9 +158,19 @@ h2, .project-buttons{
     margin-left: 16.5%;
 }
 
-.skills-img img{
-    max-width: 5%;
+.about-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
+.about-imgs img{
+    max-width: 5%;
+    
+}
+
+
+
 
 .projects-content{
     width: 100%;
