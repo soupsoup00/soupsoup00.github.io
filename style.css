@@ -41,7 +41,7 @@ h1{
 }
 
 #home, #about, #projects, #art {
-    height: 100%;
+    min-height: 100vh;
 }
 
 .home-text h1{
@@ -120,19 +120,22 @@ h2, .project-buttons{
 
 .heading {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     white-space: nowrap;
     /* text-align: center; */
 }
 .heading h2{
-    width: 25%;
-    display: inline-block;
+    width: 50%;
+    
+    /* display: inline-block; */
     vertical-align: top;
     /* margin: 0; */
 }
 
 .bio-left{
-    text-align: left;
-    padding-left: 25%;
+    text-align: center;
+    /* padding-left: 25%; */
 
 }
 
