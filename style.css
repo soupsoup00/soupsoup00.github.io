@@ -163,6 +163,7 @@ h2, .project-buttons{
     width: 50%;
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 #hannah {
@@ -171,13 +172,13 @@ h2, .project-buttons{
     height: auto;
     border-radius: 400px;
     justify-content: center;
-    /* margin-left: 16.5%; */
+
 }
 
 
 
 .about-imgs img{
-    max-width: 9%;
+    max-width: 12%;
     
 }
 
@@ -191,7 +192,7 @@ h2, .project-buttons{
 }
 
 .skills img{
-    margin:10px
+    margin: 3%;
 }
 
 .row1, .row2{
