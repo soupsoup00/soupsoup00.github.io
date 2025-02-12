@@ -121,7 +121,7 @@ h2, .project-buttons{
 .heading {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     white-space: nowrap;
     /* text-align: center; */
 }
@@ -141,8 +141,8 @@ h2, .project-buttons{
 
 .bio-right{
     width: min-content;
-    text-align: right;
-    padding-right: 25%;
+    text-align: center;
+    /* padding-right: 25%; */
     
 }
 
@@ -153,19 +153,22 @@ h2, .project-buttons{
     /* width: 70%; */
 }
 
-#hannah {
-    max-width: 30%;
-    width: 400px;
-    height: auto;
-    border-radius: 400px;
-    margin-left: 16.5%;
-}
-
 .about-imgs{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
+#hannah {
+    max-width: 30%;
+    width: 400px;
+    height: auto;
+    border-radius: 400px;
+    justify-content: center;
+    /* margin-left: 16.5%; */
+}
+
+
 
 .about-imgs img{
     max-width: 9%;
