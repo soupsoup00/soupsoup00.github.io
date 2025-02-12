@@ -151,10 +151,15 @@ h2, .project-buttons{
 }
 
 #hannah {
+    max-width: 30%;
     width: 400px;
     height: auto;
     border-radius: 400px;
     margin-left: 16.5%;
+}
+
+.skills-img img{
+    max-width: 5%;
 }
 
 .projects-content{
