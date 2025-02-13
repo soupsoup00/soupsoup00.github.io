@@ -29,3 +29,28 @@ buttons.forEach(button=>{
         button.classList.toggle('selected');
     } );
 });
+
+
+var slideIdx = 1;
+showSlide(slideIdx);
+
+function switchSlide(x){
+    showSlide(slideIdx += x)
+}
+
+function showSlide(x){
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    var totalSlides = slides.length;
+
+    if (x > totalSlides) {
+        slideIdx = 1
+    }
+    if (x < 1){
+        slideIdx = totalSlides
+    }
+    for(i = 0; i < totalSlides; i++){
+        slides[i].style.display = "none";
+    }
+    slides[slideIdx-1].style.display = "block"
+}
