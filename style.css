@@ -106,11 +106,11 @@ h2, .project-buttons{
     padding-top: 30px;
     width: 35px;
     height: auto;
-    /* box-shadow: 0 4px 2px -2px #e4e4e4 */
    
 }
 
 .icons img:hover{
+    filter: opacity(70%);
     transform: scale(0.95)
 }
 
@@ -304,3 +304,23 @@ h2, .project-buttons{
 #art{
     text-align: center;
 }
+
+.portfolio{
+    /* width: 80%; */
+    height: 60%;
+}
+
+.arrow-button{
+    padding: none;
+    background:none;
+    border: none;
+}
+
+.arrow-button img{
+    width: 20%;
+}
+
+.arrow-button:hover{
+    filter: opacity(50%);
+}
+
