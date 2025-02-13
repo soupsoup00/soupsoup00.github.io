@@ -305,9 +305,12 @@ h2, .project-buttons{
     text-align: center;
 }
 
-.portfolio{
-    /* width: 80%; */
+
+
+.slides {
     height: 60%;
+    width:auto;
+    margin: auto;
 }
 
 .arrow-button{
