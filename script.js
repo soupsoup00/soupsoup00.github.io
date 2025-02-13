@@ -50,7 +50,9 @@ function showSlide(x){
         slideIdx = totalSlides
     }
     for(i = 0; i < totalSlides; i++){
-        slides[i].style.display = "none";
+        // slides[i].style.display = "none";
+        slides[i].classList.remove('active');
     }
-    slides[slideIdx-1].style.display = "block"
+    // slides[slideIdx-1].style.display = "block"
+    slides[slideIdx-1].classList.add('active');
 }
