@@ -172,14 +172,11 @@ h2, .project-buttons{
     height: auto;
     border-radius: 400px;
     justify-content: center;
-
 }
 
 
-
 .about-imgs img{
-    max-width: 12%;
-    
+    max-width: 12%; 
 }
 
 .skills{
@@ -191,6 +188,7 @@ h2, .project-buttons{
 
 }
 
+
 .skills img{
     margin: 3%;
 }
@@ -199,8 +197,8 @@ h2, .project-buttons{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
+
 
 .projects-content{
     width: 100%;
@@ -357,7 +355,7 @@ h2, .project-buttons{
 }
 
 .arrow-button img{
-    width: 13%;
+    width: 10%;
 }
 
 .arrow-button:hover{
