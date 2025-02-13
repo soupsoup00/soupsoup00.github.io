@@ -300,3 +300,7 @@ h2, .project-buttons{
     transition: 0.3s ease-in-out;
     text-decoration: underline;
 }
+
+#art{
+    text-align: center;
+}
