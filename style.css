@@ -281,6 +281,20 @@ h2, .project-buttons{
     box-shadow: 2px 2px 5px#e4e4e4 ;
 }
 
+#favicon{
+    border: none;
+    background: none;
+    
+}
+
+#favicon img{
+    height: 4%;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left;
+    padding-right: 10%;
+}
+
 .navbar-button{
     font-family: 'kollektiv', sans-serif;
     background-color: white;
