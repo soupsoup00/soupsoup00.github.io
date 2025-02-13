@@ -307,8 +307,8 @@ h2, .project-buttons{
 
 #favicon:hover{
     animation: tilt-shaking 0.5s infinite;
-    /* transform: scale(0.9); */
 }
+
 .navbar-button{
     font-family: 'kollektiv', sans-serif;
     background-color: white;
